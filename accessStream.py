@@ -13,7 +13,7 @@ import cleanText
 class Listener(StreamListener):
 
     #def __init__(self, start_time, time_limit=60,inputFile = None):
-    def __init__(self, tweet_limit, start_time, time_limit,inputFile = None):   #WHY THE FUCK DOESN'T THIS WORK
+    def __init__(self, tweet_limit, start_time, time_limit,inputFile):   #WHY THE FUCK DOESN'T THIS WORK
 
         self.time = start_time
         self.limit = time_limit
